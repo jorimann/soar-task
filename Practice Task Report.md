@@ -91,7 +91,7 @@
 1. Tests are placed here: [https://github.com/jorimann/soar-task](https://github.com/jorimann/soar-task)
 2. Test settings can be found in config.properties file
 3. Production version is quite unstable. It is recommended to setup and run local version ([https://github.com/juice-shop/juice-shop](https://github.com/juice-shop/juice-shop))
-4. To run web tests perform **./gradlew webTests** command
+4. To run web tests perform **./gradlew clean assemble webTests** command
 5. Requirements:
     1. Java 17
     2. Gradle 8
@@ -100,12 +100,20 @@
 
 1. Tests are placed here: [https://github.com/jorimann/soar-task](https://github.com/jorimann/soar-task)
 2. Test settings can be found in config.properties file
-3. To run web tests perform **./gradlew androidTests** command
+3. To run web tests perform **./gradlew clean assemble androidTests** command
 4. Requirements:
     1. Appium Server is up and running
     2. Emulator with suitable OS is up and running
     3. Java 17
     4. Gradle 8
+       
+# Logical and security testing
+
+There was challenge itself to make app up and running in absence of setup instructions. I was manage to run application, but there were not enough time to perform task.
+
+# Performance Testing
+
+Not completed becasue of lack of time
 
 # Test Management 
 * Test Plan Document: [Test Plan (md version)](https://github.com/jorimann/soar-task/blob/main/Test%20Plan.md)

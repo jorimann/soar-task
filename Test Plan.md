@@ -1,30 +1,30 @@
-# Test Plan {#test-plan}
+# Test Plan
 
-## Assumptions {#assumptions}
+## Assumptions
 
 * Next Release will include all Stories from Scope
 * This is the first release
 * Suppose we release iOS application
 * Because of the absence of Stakeholders all decisions are made based on experience of the Test Manager. Constraints such as resources, environments, and schedules may be discussed and adjusted accordingly.
 
-## Corresponding Artefacts {#corresponding-artefacts}
+## Corresponding Artefacts
 
 Risk Analysis, Test Cases, Test Runs can be found: [Google Sheet Document](https://docs.google.com/spreadsheets/d/16lyosNcRrLplU_6aTnfpJ2v3tThUPetKDS_esZxmwi4/edit?usp=sharing)
 
-## Objective {#objective}
+## Objective
 
 The primary objective of this test plan is to ensure comprehensive validation of the investment platform's core functionalities, focusing on user authentication, account upgrades, loan processing, corporate verification and integration with \[X\] System features.
 
-## Test Scope {#test-scope}
+## Test Scope
 
-Testing scope of this release consists of User Stories mentioned in the **Scope of Testing** section.
+Testing scope of this release consists of User Stories mentioned in the [Scope of Testing]({#scope-of-testing}) section.
 
-## Test Strategy {#test-strategy}
+## Test Strategy
 
 The test approach for the current release is based on a Risk-Based Testing approach. All test activities aim to minimize risks by prioritizing the most critical areas.  
 The registered risks, analysis, related test cases, and priority of test case execution in the feature testing and system integration testing cycles can be found in the **Soar-Tests** file.
 
-### Test Levels {#test-levels}
+### Test Levels
 
 1. Unit Testing. Will be performed by the development team.
 2. Feature Testing (Functional Testing of each User Story) on the QA environment. The goal of this Test Type is to ensure each feature meets Acceptance Criteria.
@@ -39,19 +39,19 @@ The registered risks, analysis, related test cases, and priority of test case ex
 5. Stage Testing
 6. Post-Release Testing
 
-### Test Types {#test-types}
+### Test Types
 
 1. Regression Testing. Since this is a first release and there is no yet old codebase this type of testing  will be omitted.
 2. User Acceptance Testing. Will be performed by stakeholders as End-Users and Users of Third-Party systems
 3. Security Testing. Security is a crucial aspect of non-functional requirements for an investment-related application. It will be performed by a dedicated Team on QA, SIT, UAT environments.
 4. Deployment-Rollback Testing.
 
-### Test Approaches and Techniques {#test-approaches-and-techniques}
+### Test Approaches and Techniques
 
 1. Risk-Based Approach. To optimize resources and minimize risks, a Risk-Based approach will be utilized.
 2. Edge Case Testing approach (Boundary Values approach)
 
-## Environments {#environments}
+## Environments
 
 The following environments are required to perform test activities. The QA, SIT, UAT, and STAGE environments should contain test data from production (data should be obfuscated and not contain sensitive information such as passwords).
 
@@ -66,39 +66,39 @@ There might be additional specific Environments for specific Goals:
 1. Automation Environment. To perform Automation testing. Controlled by the automation test team.
 2. Performance Environment. To perform Performance testing. Controlled by the performance test team.
 
-## Entry And Exit Criteria {#entry-and-exit-criteria}
+## Entry And Exit Criteria
 
-### Feature Testing (Applied for each Feature separately): {#feature-testing-(applied-for-each-feature-separately):}
+### Feature Testing (Applied for each Feature separately):
 
-#### Entry Criteria: {#entry-criteria:}
+#### Entry Criteria:
 
 1. Unit Tests are passed
 2. Deployment Scripts are updated by responsible Dev Engineers
 3. QA environment is operational and contains required Test Data
 4. Feature Deployed to QA environment
 
-#### Exit Criteria: {#exit-criteria:}
+#### Exit Criteria:
 
 1. All defects are fixed, deployed and verified by QA representative
 2. Test Cases are created, documented in TCMS and verified
 
-### System Testing:  {#system-testing:}
+### System Testing:
 
-#### Entry Criteria: {#entry-criteria:-1}
+#### Entry Criteria:
 
 1. SIT environment is operational and contains required Test Data
 2. All Features defined as Release Scope are deployed to SIT environment
 3. Test Suite is ready to run
 
-#### Exit Criteria: {#exit-criteria:-1}
+#### Exit Criteria:
 
 1. All planned Tests are performed
 2. All found defects are registered in Defect Management System
 3. All Defects are resolved (e.g. fixed, deferred, cancelled)
 
-### System Integration Testing: {#system-integration-testing:}
+### System Integration Testing:
 
-#### Entry Criteria: {#entry-criteria:-2}
+#### Entry Criteria:
 
 1. List of Third-party Services is defined
 2. All third-party Services are connected and version control is fixed
@@ -107,42 +107,42 @@ There might be additional specific Environments for specific Goals:
 5. System Testing is in progress
 6. Test Suite related to SIT is defined
 
-#### Exit Criteria: {#exit-criteria:-2}
+#### Exit Criteria:
 
 1. All SIT Test Cases performed
 2. All Defects are resolved (e.g. fixed, deferred, cancelled)
 3. Third-Party Stakeholders sign offs obtained
 
-### User Acceptance Testing: {#user-acceptance-testing:}
+### User Acceptance Testing:
 
-#### Entry Criteria: {#entry-criteria:-3}
+#### Entry Criteria:
 
 1. Feature Testing Level completed
 2. UAT environment is operational and contains all required Test Data
 3. UAT environment is updated with planned features
 
-#### Exit Criteria: {#exit-criteria:-3}
+#### Exit Criteria:
 
 1. All planned Features are signed off with Stakeholders/Product Management Team
 
-### Stage Testing: {#stage-testing:}
+### Stage Testing:
 
-#### Entry Criteria: {#entry-criteria:-4}
+#### Entry Criteria:
 
 1. Deployment Procedures and Scripts are ready
 2. Post-Deployment Test Suite is ready
 3. STAGE env identical to Prod is ready
 
-#### Exit Criteria: {#exit-criteria:-4}
+#### Exit Criteria:
 
 1. Deployment performed with errors
 2. Tests performed and no bugs found
 
-## Resource Planning {#resource-planning}
+## Resource Planning
 
 All QA activities will be performed by one QA engineer.
 
-## Test Schedule {#test-schedule}
+## Test Schedule
 
 Assuming all resources are available:
 

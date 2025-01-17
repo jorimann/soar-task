@@ -53,7 +53,7 @@ tasks.register("webTests", Test) {
     include '**/ui/**'
 }
 
-tasks.register("androidItests", Test) {
+tasks.register("androidTests", Test) {
     description "android tests"
     systemProperties(System.getProperties())
     useJUnitPlatform()

@@ -107,21 +107,8 @@
     3. Java 17
     4. Gradle 8
 
-# Logical and security testing
-
-Bug Reports:
-
-| Bug | Risk Score |
-| :---- | :---- |
-|  |  |
-|  |  |
-|  |  |
-
-# Performance Testing
-
 # Test Management 
 * Test Plan Document: [Test Plan (md version)](https://github.com/jorimann/soar-task/blob/main/Test%20Plan.md)
-* Test Plan Document: [Test Plan (pdf version)](https://github.com/jorimann/soar-task/blob/main/Test%20Plan.md](https://github.com/jorimann/soar-task/blob/main/Soar%20Test%20Plan.pdf)
-* 
+* Test Plan Document: [Test Plan (pdf version)](https://raw.githubusercontent.com/jorimann/soar-task/main/Soar%20Test%20Plan.pdf)
 * Risks, Test Cases, Test Runs: [Google Sheet Document](https://docs.google.com/spreadsheets/d/16lyosNcRrLplU_6aTnfpJ2v3tThUPetKDS_esZxmwi4/edit?usp=sharing)
 

@@ -13,7 +13,10 @@
 
 ## Exploration testing of [Juice-chop web store](https://juice-shop.herokuapp.com/#/)
 
-**Note**: Testing was performed on local server. Browser: Chrome 131\. OS: MacOS 15.2
+**Note**: 
+
+1. Testing was performed on local server. Browser: Chrome 131\. OS: MacOS 15.2
+2. Because of timepressusre there are only Bug Summaries provided. 
 
 ### Exploratory Test Charters:
 
@@ -67,6 +70,7 @@
 
 1. Testing was performed on Emulator because application’s target Android version 7\. App is outdated and it may lead to security breaches and compatibility issues.
 2. App fails to deliver core functionality. The current version is not suitable for user use and should not be presented to users.
+3. Because of timepressusre there are only Bug Summaries provided.
 
 ### Exploratory Test Charters
 

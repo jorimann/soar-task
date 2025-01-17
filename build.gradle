@@ -1,0 +1,68 @@
+plugins {
+    id 'java'
+    id 'io.freefair.lombok' version '8.11'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    junitVersion = '5.11.3'
+}
+
+dependencies {
+    implementation('com.microsoft.playwright:playwright:1.49.0')
+
+    implementation platform("org.junit:junit-bom:5.11.4")
+    implementation 'org.junit.jupiter:junit-jupiter-api'
+    implementation 'org.junit.jupiter:junit-jupiter-params'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    implementation 'org.aeonbits.owner:owner:1.0.12'
+    implementation 'com.github.javafaker:javafaker:1.0.2'
+
+    implementation 'org.slf4j:slf4j-api:2.0.16'
+    implementation 'ch.qos.logback:logback-classic:1.5.15'
+
+    testImplementation 'io.appium:java-client:9.3.0'
+}
+
+test {
+    systemProperties(System.getProperties())
+    useJUnitPlatform()
+    ignoreFailures = true
+}
+
+tasks.register("allTests") {
+    description = "runs both web and android tests"
+
+    dependsOn tasks.named("webTests")
+    dependsOn tasks.named("androidItests")
+}
+
+tasks.register("webTests", Test) {
+    description "web tests"
+    systemProperties(System.getProperties())
+    useJUnitPlatform()
+    ignoreFailures = true
+    include '**/ui/**'
+}
+
+tasks.register("androidItests", Test) {
+    description "android tests"
+    systemProperties(System.getProperties())
+    useJUnitPlatform()
+    ignoreFailures = true
+    include '**/android/**'
+}
+
+tasks.register('installPlaywrightDeps', JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'com.microsoft.playwright.CLI'
+    args = ['install-deps']
+}

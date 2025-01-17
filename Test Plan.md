@@ -4,6 +4,8 @@
 
 [Assumptions](#assumptions)
 
+[Corresponding Artefacts](#corresponding-artefacts)
+
 [Objective](#objective)
 
 [Test Scope](#test-scope)
@@ -20,36 +22,6 @@
 
 [Entry And Exit Criteria](#entry-and-exit-criteria)
 
-[Feature Testing (Applied for each Feature separately):](#feature-testing-\(applied-for-each-feature-separately\):)
-
-[Entry Criteria:](#entry-criteria:)
-
-[Exit Criteria:](#exit-criteria:)
-
-[System Testing:](#system-testing:)
-
-[Entry Criteria:](#entry-criteria:-1)
-
-[Exit Criteria:](#exit-criteria:-1)
-
-[System Integration Testing:](#system-integration-testing:)
-
-[Entry Criteria:](#entry-criteria:-2)
-
-[Exit Criteria:](#exit-criteria:-2)
-
-[User Acceptance Testing:](#user-acceptance-testing:)
-
-[Entry Criteria:](#entry-criteria:-3)
-
-[Exit Criteria:](#exit-criteria:-3)
-
-[Stage Testing:](#stage-testing:)
-
-[Entry Criteria:](#entry-criteria:-4)
-
-[Exit Criteria:](#exit-criteria:-4)
-
 [Resource Planning](#resource-planning)
 
 [Test Schedule](#test-schedule)
@@ -64,6 +36,10 @@
 * This is the first release
 * Suppose we release iOS application
 * Because of the absence of Stakeholders all decisions are made based on experience of the Test Manager. Constraints such as resources, environments, and schedules may be discussed and adjusted accordingly.
+
+## Corresponding Artefacts {#corresponding-artefacts}
+
+Risk Analysis, Test Cases, Test Runs can be found: [Google Sheet Document](https://docs.google.com/spreadsheets/d/16lyosNcRrLplU_6aTnfpJ2v3tThUPetKDS_esZxmwi4/edit?usp=sharing)
 
 ## Objective {#objective}
 
@@ -201,10 +177,10 @@ All QA activities will be performed by one QA engineer.
 Assuming all resources are available:
 
 1. QA Engineer is available.
-    2. Dev Team available and responsive.
-    3. Product Team representative is available and responsive.
-    4. Required environments are available and operational.
-    5. The \[X\] integration is available during SIT cycles.
+2. Dev Team available and responsive.
+3. Product Team representative is available and responsive.
+4. Required environments are available and operational.
+5. The \[X\] integration is available during SIT cycles.
 
 Any lack of those items can lead to Schedule prolongation
 

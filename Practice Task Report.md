@@ -114,11 +114,10 @@
 # Logical and security testing
 
 There was challenge itself to make app up and running in absence of setup instructions. I was manage to run application, but there were not enough time to perform task.
-| Bug | Risk |
+| Issue | Risk |
 | ----- | ----- | 
 | Authentication token is constant for User| Security Breach |
 | Applicaiton logs contain sensitive data like passwords and Tokens| Security Breach |
-| Applicaiton logs expose sensitive data like passwords and Tokens| Security Breach |
 
 # Performance Testing
 

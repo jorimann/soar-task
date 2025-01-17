@@ -162,7 +162,7 @@ Test Schedule below incorporates Buffers to mitigate Risks related to issues men
 | System Integration Testing Cycle 1 | February 13, 2025 | February 19, 2025 |
 | System Integration Testing Cycle 2 (if needed) | February 24, 2025 | February 28, 2025 |
 
-# Scope of Testing {#scope-of-testing}
+# Scope of Testing
 
 **User Story 1: Registered User Login From a New Device**  
 **Description:**  

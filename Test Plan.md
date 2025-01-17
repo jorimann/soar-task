@@ -1,33 +1,3 @@
-
-
-[Test Plan](#test-plan)
-
-[Assumptions](#assumptions)
-
-[Corresponding Artefacts](#corresponding-artefacts)
-
-[Objective](#objective)
-
-[Test Scope](#test-scope)
-
-[Test Strategy](#test-strategy)
-
-[Test Levels](#test-levels)
-
-[Test Types](#test-types)
-
-[Test Approaches and Techniques](#test-approaches-and-techniques)
-
-[Environments](#environments)
-
-[Entry And Exit Criteria](#entry-and-exit-criteria)
-
-[Resource Planning](#resource-planning)
-
-[Test Schedule](#test-schedule)
-
-[Scope of Testing](#scope-of-testing)
-
 # Test Plan {#test-plan}
 
 ## Assumptions {#assumptions}

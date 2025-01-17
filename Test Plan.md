@@ -17,7 +17,7 @@ The primary objective of this test plan is to ensure comprehensive validation of
 
 ## Test Scope
 
-Testing scope of this release consists of User Stories mentioned in the [Scope of Testing]({#scope-of-testing}) section.
+Testing scope of this release consists of User Stories mentioned in the [Scope of Testing](#scope-of-testing) section.
 
 ## Test Strategy
 

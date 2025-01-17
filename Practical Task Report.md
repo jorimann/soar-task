@@ -11,7 +11,7 @@
 
 # Functional Test
 
-## Exploration testing of [https://juice-shop.herokuapp.com/\#/](https://juice-shop.herokuapp.com/#/)
+## Exploration testing of [Juice-chop web store](https://juice-shop.herokuapp.com/#/)
 
 **Note**: Testing was performed on local server. Browser: Chrome 131\. OS: MacOS 15.2
 
@@ -65,7 +65,7 @@
 
 **Note**:
 
-1. testing was performed on Emulator because application’s target Android version 7\. App is outdated and it may lead to security breaches and compatibility issues.
+1. Testing was performed on Emulator because application’s target Android version 7\. App is outdated and it may lead to security breaches and compatibility issues.
 2. App fails to deliver core functionality. The current version is not suitable for user use and should not be presented to users.
 
 ### Exploratory Test Charters
@@ -120,6 +120,8 @@ Bug Reports:
 # Performance Testing
 
 # Test Management 
-Test Plan document:
-Risks, Test Cases, Test Runs: https://docs.google.com/spreadsheets/d/16lyosNcRrLplU_6aTnfpJ2v3tThUPetKDS_esZxmwi4/edit?usp=sharing
+* Test Plan Document: [Test Plan (md version)](https://github.com/jorimann/soar-task/blob/main/Test%20Plan.md)
+* Test Plan Document: [Test Plan (pdf version)](https://github.com/jorimann/soar-task/blob/main/Test%20Plan.md](https://github.com/jorimann/soar-task/blob/main/Soar%20Test%20Plan.pdf)
+* 
+* Risks, Test Cases, Test Runs: [Google Sheet Document](https://docs.google.com/spreadsheets/d/16lyosNcRrLplU_6aTnfpJ2v3tThUPetKDS_esZxmwi4/edit?usp=sharing)
 
